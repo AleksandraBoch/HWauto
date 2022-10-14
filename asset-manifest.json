@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HWauto/static/css/main.5b5eba80.css",
+    "main.js": "/HWauto/static/js/main.0b408488.js",
+    "static/js/787.2510539b.chunk.js": "/HWauto/static/js/787.2510539b.chunk.js",
+    "static/media/avatar.png": "/HWauto/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/HWauto/index.html",
+    "main.5b5eba80.css.map": "/HWauto/static/css/main.5b5eba80.css.map",
+    "main.0b408488.js.map": "/HWauto/static/js/main.0b408488.js.map",
+    "787.2510539b.chunk.js.map": "/HWauto/static/js/787.2510539b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b5eba80.css",
+    "static/js/main.0b408488.js"
+  ]
+}
