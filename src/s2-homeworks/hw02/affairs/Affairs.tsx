@@ -3,31 +3,38 @@ import Affair from './affair/Affair'
 import {AffairType, FilterType} from '../HW2'
 import s from './Affairs.module.css'
 
-type AffairsPropsType = {
-    data: any // need to fix any
-    setFilter: any
-    deleteAffairCallback: any
+export type AffairsPropsType = {
+    data: AffairType[]
+    setFilter:(filter:FilterType) => void
+    deleteAffairCallback: (id:number)=>void
     filter: FilterType
 }
 
 function Affairs(props: AffairsPropsType) {
     const setAll = () => {
-        // need to fix
+        props.setFilter('all') // need to fix
     }
     const setHigh = () => {
         // need to fix
+        props.setFilter('high')
     }
     const setMiddle = () => {
         // need to fix
+        props.setFilter('middle')
     }
     const setLow = () => {
+        props.setFilter('low')
         // need to fix
     }
+
 
     const cnAll = s.button + ' ' + s.all + (props.filter === 'all' ? ' ' + s.active : '')
     const cnHigh = s.button + ' ' + s.high + (props.filter === 'high' ? ' ' + s.active : '')
     const cnMiddle = s.button + ' ' + s.middle + (props.filter === 'middle' ? ' ' + s.active : '')
     const cnLow = s.button + ' ' + s.low + (props.filter === 'low' ? ' ' + s.active : '')
+
+
+
 
     const mappedAffairs = props.data.map((a: AffairType) => (
         <Affair
@@ -69,7 +76,8 @@ function Affairs(props: AffairsPropsType) {
                     Low
                 </button>
             </div>
-            <div className={s.affairs}>{mappedAffairs}</div>
+            <div className={s.affairs}>
+                {mappedAffairs}</div>
         </div>
     )
 }

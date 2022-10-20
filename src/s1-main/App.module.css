@@ -1,11 +1,11 @@
 .App {
-    --header_height: 60px;
+    --header_height: 600px;
 }
 
 .hw {
     position: absolute;
     width: 1280px;
-    height: 0px;
+    height: 1000px;
     left: 0px;
     top: 144px;
 
