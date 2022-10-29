@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HWauto/static/css/main.5fed7722.css",
-    "main.js": "/HWauto/static/js/main.a3d2e8fc.js",
+    "main.js": "/HWauto/static/js/main.b7a14712.js",
     "static/js/787.2510539b.chunk.js": "/HWauto/static/js/787.2510539b.chunk.js",
     "index.html": "/HWauto/index.html",
     "main.5fed7722.css.map": "/HWauto/static/css/main.5fed7722.css.map",
-    "main.a3d2e8fc.js.map": "/HWauto/static/js/main.a3d2e8fc.js.map",
+    "main.b7a14712.js.map": "/HWauto/static/js/main.b7a14712.js.map",
     "787.2510539b.chunk.js.map": "/HWauto/static/js/787.2510539b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fed7722.css",
-    "static/js/main.a3d2e8fc.js"
+    "static/js/main.b7a14712.js"
   ]
 }
